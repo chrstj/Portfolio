@@ -138,19 +138,22 @@ img {
 
 /* Projects Page */
 
-.projects {
-    margin-left: 35em;
+
+.card {
+    background-color: rgb(50, 50, 50);
+    max-width: 500px;
+    margin: 80px;
     margin-top: 10em;
-    
+    text-align: center;
+ 
 }
 
-
-.pages {
-    display: inline-block;
-    margin-right: 10em;
-    max-width: 425px;
+.cards {
+display: flex;
+justify-content: center;
 
 }
+
 
 
 /* Contact Page */
@@ -160,9 +163,7 @@ img {
 
 }
 
-.mail {
-    padding-bottom: 3rem;
-}
+
 
 
 /* Media queries */
